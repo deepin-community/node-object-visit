@@ -1,0 +1,49 @@
+node-object-visit (1.0.1-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-isobject.
+    + node-object-visit: Drop versioned constraint on node-isobject in Depends.
+
+  [ Yadd ]
+  * Bump debhelper from old 12 to 13.
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs auto test & install
+
+ -- Yadd <yadd@debian.org>  Tue, 02 Nov 2021 16:31:57 +0100
+
+node-object-visit (1.0.1-2) unstable; urgency=medium
+
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sun, 29 Aug 2021 01:03:00 +0100
+
+node-object-visit (1.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Bump standards version
+  * Change section to javascript
+  * Enable tests
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 11 Jan 2018 16:23:55 +0530
+
+node-object-visit (0.3.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #841040)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 17 Oct 2016 12:10:28 +0530

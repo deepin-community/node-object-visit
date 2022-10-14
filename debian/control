@@ -1,0 +1,26 @@
+Source: node-object-visit
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-isobject <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-object-visit
+Vcs-Git: https://salsa.debian.org/js-team/node-object-visit.git
+Homepage: https://github.com/jonschlinkert/object-visit
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-object-visit
+Architecture: all
+Depends: ${misc:Depends}
+ , node-isobject
+ , nodejs
+Description: Call a specified method on each value in the given object
+ Call a specified method on each value in the given object. See
+ /usr/share/doc/node-object-visit/README.md for more info.
+ .
+ Node.js is an event-based server-side JavaScript engine.
