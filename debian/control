@@ -18,7 +18,7 @@ Package: node-object-visit
 Architecture: all
 Depends: ${misc:Depends}
  , node-isobject
- , nodejs
+Multi-Arch: foreign
 Description: Call a specified method on each value in the given object
  Call a specified method on each value in the given object. See
  /usr/share/doc/node-object-visit/README.md for more info.
